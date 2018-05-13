@@ -1,0 +1,9 @@
+To install run:
+ make clean
+ make libenet
+ sudo make install
+ 
+To uninstall run:
+ sudo make uninstall
+ 
+Libraries (.so and .a) are installed to `/usr/local/lib'.  Header is installed to `/usr/local/include'.  The shared library is then symlinked to `/usr/lib/libenet.so' and the header is symlinked to `/usr/include/enet.h'.  
